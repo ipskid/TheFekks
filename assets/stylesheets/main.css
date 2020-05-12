@@ -1,0 +1,126 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	background: rgb(232, 227, 213);
+}
+
+<!--a {
+	display: block;
+}-->
+
+h2 {
+	margin-bottom: 1em;
+}
+
+p {
+	width: 50%;
+	margin-bottom: 1em;
+}
+
+p:first-of-type {
+	margin-top: 0;
+}
+
+p:last-of-type {
+	margin-bottom: 0;
+}
+
+header {
+	margin: 40px;
+}
+
+section {
+	margin: 40px;
+}
+
+img {
+	display: block;
+	width: 40%;
+	margin: 40px;
+}
+
+@font-face {
+	font-family: "titleFekks";
+	src: url("./fonts/bebasneue-regular.ttf");
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('assets/fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#CR {
+	text-align: center;
+}
+
+#TF {
+	font-family: 'bebas_neueregular';
+}
+
+#bio {
+	font-family: "titleFekks";
+]
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
