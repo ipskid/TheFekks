@@ -80,7 +80,7 @@ section {
 
 img {
 	display: block;
-	width: 40%;
+	width: 10%;
 	margin: 40px;
 }
 
@@ -99,7 +99,19 @@ img {
 }
 
 #CR {
-	text-align: center;
+    text-align: center;
+}
+
+#mid {
+    width: 30%;
+}
+
+#FT {
+    width: 40%;
+}
+
+#PdC {
+    width: 40%;
 }
 
 #TF {
